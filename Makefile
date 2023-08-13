@@ -13,6 +13,6 @@ format:
 	black *.py
 
 make build:
-	docker build . -t gradio_app:latest
+	docker build . -t doc_qa:latest
 
 all: install line test
