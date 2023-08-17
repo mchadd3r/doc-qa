@@ -6,7 +6,7 @@ template = """Create a final answer to the given questions using the provided do
 
 ---------
 
-QUESTION: What  is the purpose of ARPA-H?
+QUESTION: What is the purpose of ARPA-H?
 =========
 Content: More support for patients and families. \n\nTo get there, I call on Congress to fund ARPA-H, the Advanced Research Projects Agency for Health. \n\nIt’s based on DARPA—the Defense Department project that led to the Internet, GPS, and so much more.  \n\nARPA-H will have a singular purpose—to drive breakthroughs in cancer, Alzheimer’s, diabetes, and more.
 Source: 1-32
