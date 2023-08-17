@@ -1,4 +1,4 @@
-gradio
+streamlit
 langchain==0.0.262
 openai
 chromadb

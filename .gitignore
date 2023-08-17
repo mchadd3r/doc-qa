@@ -1,7 +1,5 @@
 # pyenv
-bin/
-include/
-share/
+venv/
 pyvenv.cfg
 Scripts/
 

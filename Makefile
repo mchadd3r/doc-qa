@@ -1,10 +1,10 @@
 install:
 	python -m pip install --upgrade pip &&\
-		pip install -r requirements_dev.txt &&\
 		pip install -r requirements.txt
 
-test:
-	
+dev:
+	python -m pip install --upgrade pip &&\
+		pip install pytest pytest-cov pylint black
 
 lint:
 	pylint --disable=R,C *.py
@@ -15,4 +15,8 @@ format:
 make build:
 	docker build . -t doc_qa:latest
 
-all: install line test
+clean:
+	rm -rf __pycache__
+	rm -rf venv
+
+all: run install lint format test
