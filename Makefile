@@ -4,7 +4,7 @@ install:
 
 dev:
 	python -m pip install --upgrade pip &&\
-		pip install pytest pytest-cov pylint black
+		pip install pytest pytest-cov pylint black jupyter
 
 lint:
 	pylint --disable=R,C *.py
